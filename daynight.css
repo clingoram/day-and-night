@@ -25,7 +25,7 @@
 
 }
 .switch{
-	  display:none;
+    display:none;
 }
 
 body {
@@ -77,34 +77,34 @@ i {
 .icon:before,
 .icon:after{
     width:0;
-	  height:0;
-	  bottom:0;
+    height:0;
+    bottom:0;
 }
 .icon:before{
     left:0;
-	  border:60px solid transparent;
-	  border-bottom:100px solid rgba(255,255,255,.3);
-	  border-left-width:75px;
-	  border-right-width:65px;
+    border:60px solid transparent;
+    border-bottom:100px solid rgba(255,255,255,.3);
+    border-left-width:75px;
+    border-right-width:65px;
 }
 .icon:after{
     right:0;
-	  border:60px solid transparent;
-	  border-bottom:150px solid rgba(255,255,255,.2);
-	  border-left-width:100px;
-	  border-right-width:100px;
+    border:60px solid transparent;
+    border-bottom:150px solid rgba(255,255,255,.2);
+    border-left-width:100px;
+    border-right-width:100px;
 }
 
 .sun-and-moon{
     top:22px;
-	  left:160px;
-	  width:64px;
-	  height:64px;
-	  position:absolute;
-	  border-radius:50%;
-	  background-color:#f8e71c;/*yellow*/
-	  transform:scale(.8);
-	  transition:all .4s ease-in-out 0s;
+    left:160px;
+    width:64px;
+    height:64px;
+    position:absolute;
+    border-radius:50%;
+    background-color:#f8e71c;/*yellow*/
+    transform:scale(.8);
+    transition:all .4s ease-in-out 0s;
     box-shadow:0 0 50px rgba(242, 191, 66, 0.9);
 }
 .sun-and-moon:before{
@@ -118,7 +118,7 @@ i {
 }
 /*birds */
 .birds{  
-	position:absolute;
+    position:absolute;
     width:0px;
     z-index:2;
 }
@@ -338,7 +338,7 @@ i {
     border-left: 80px rgba(0, 0, 0, 0) solid;
     border-right: 80px rgba(0, 0, 0, 0) solid;
     border-bottom: 130px #B3A385 solid;
-    left: 190px;/*left:150px*/
+    left: 190px;
     z-index:2;
 }
 .morning-night-active .mountain-two:after{
@@ -346,7 +346,7 @@ i {
     position: absolute;
     left: 0px;
     border-right: 80px rgba(0, 0, 0, 0) solid;
-    border-bottom: 130px #A18E6E solid;/*border-bottom: 110px #A18E6E solid;*/
+    border-bottom: 130px #A18E6E solid;
 }
 
 .morning-night-active .back_mountain{
@@ -516,37 +516,37 @@ i {
 .content .text:before,
 .content .text:after{
     top:20px;
-	  left:0;
+    left:0;
     width:100%;
-	  position:absolute;
-	  text-align:inherit;
-	  content:attr(data-day); /*morning*/
-	  transition:all .8s ease-in-out 0s;
+    position:absolute;
+    text-align:inherit;
+    content:attr(data-day); /*morning*/
+    transition:all .8s ease-in-out 0s;
     
 }
 /*morning*/
 .content .text:before{
-	  opacity:1;
-	  visibility:visible; 
+    opacity:1;
+    visibility:visible; 
 }
 /*night*/
 .content .text:after{
-	  opacity:0;
-	  left:-200px;
-	  visibility:hidden;
-	  content:attr(data-night); /*night*/
+    opacity:0;
+    left:-200px;
+    visibility:hidden;
+    content:attr(data-night); 
 }
 
 .content .label{
-	  width:30px;
-	  height:14px;
-	  display:block;
-	  cursor:pointer;
-	  position:relative;
-	  margin:30px auto 0;
-  	border-radius:14px;
-	  background-color:#6ab5eb;
-	  transition:all .4s ease-in-out 0s;
+    width:30px;
+    height:14px;
+    display:block;
+    cursor:pointer;
+    position:relative;
+    margin:30px auto 0;
+    border-radius:14px;
+    background-color:#6ab5eb;
+    transition:all .4s ease-in-out 0s;
 }
 .content .label:before {
     top: 50%;
@@ -593,7 +593,7 @@ i {
 }
 /*good night text*/
 .switch:checked ~  .content .text{
-    color:#003D79; /*deep blue night color:#3f51b5*/
+    color:#003D79; 
 }
 .switch:checked ~  .content .text:before{
     opacity:0;
@@ -612,7 +612,7 @@ i {
 
 .switch:checked ~ .content .label:before{
     left:-10px;
-    background:#003D79; /*deep blue night color:#3f51b5;*/
+    background:#003D79; 
 }
 
 /*Animation*/
